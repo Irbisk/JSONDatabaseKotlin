@@ -1,0 +1,10 @@
+content:
+- Theory
+- Annotations
+- '@Serializable annotation'
+- Encoding  correct order
+- Pretty printing
+- "Encode, prettyPrint"
+- "Encode, prettyPrint, Default value"
+- Print JSON
+- Read JSON information

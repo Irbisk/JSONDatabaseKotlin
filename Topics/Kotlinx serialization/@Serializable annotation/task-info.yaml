@@ -1,0 +1,23 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: It instructs the loaded serialization plugin to create a serialization code
+    for all classes defined in the file.
+- text: It is just used for commenting puproses.
+- text: It instructs the loaded serialization plugin to create a serialization code
+    for the class that immediately follows.
+- text: It immediately serializes a certain class.
+files:
+- name: src/Main.kt
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    fun main(args: Array<String>) {
+      // put your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/19889#comment
+status: Solved
+record: -1
+local_check: false

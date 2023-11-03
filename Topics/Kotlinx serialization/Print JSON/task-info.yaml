@@ -1,0 +1,25 @@
+type: code
+files:
+- name: src/Main.kt
+  visible: true
+  text: |-
+    import kotlinx.serialization.*
+    import kotlinx.serialization.json.*
+
+    @Serializable
+    data class Employee(val name: String, val position: String)
+
+    fun main() {
+        val (name, position) = readln().split(",")
+        val employee = Employee(name, position)
+        // Write your code here
+
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/19896#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Thu, 19 Oct 2023 17:18:41 UTC"
+record: -1
+submission_language: kotlin

@@ -1,0 +1,16 @@
+type: code
+files:
+- name: src/Main.kt
+  visible: true
+  text: "import kotlinx.serialization.*\nimport kotlinx.serialization.json.*\n\n@Serializable\n\
+    data class City(val name: String, val population: Int)\n\nfun main() {\n    val\
+    \ jsonString = readln()\n\n    val city = \n\n    println(\"${city.name} ${city.population}\"\
+    )\n}"
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/19897#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Thu, 19 Oct 2023 17:21:43 UTC"
+record: -1
+submission_language: kotlin
